@@ -420,7 +420,7 @@ namespace Dinosauri
             
             string nome = ReadLine();
             
-            if (nome == null)       //preme invio senza scrivere nulla
+            if (nome == "")      
             {
                 nome = "Nessuno";
             }
